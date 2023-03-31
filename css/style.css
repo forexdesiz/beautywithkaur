@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-html {
+html body {
   font-family: "Oswald", sans-serif;
 }
 
@@ -64,4 +64,34 @@ html body section .section1-div .text-block {
 
 html body section .section1-div .section-img {
   max-height: 700px;
+}
+
+html body section .section4 {
+  justify-content: center;
+}
+
+html body section .section4 .color-block {
+  padding: 1rem;
+  background-color: #a52a2a26;
+}
+
+html body section .section6 {
+  background-color: #7e0202b8;
+  color: white;
+}
+
+html body section .section6 ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+html body section .section6 .logo-a {
+  background-color: white;
+  margin: auto;
+  width: fit-content;
+}
+
+html body section .section6 .logo-a img {
+  height: 100px;
+  width: fit-content;
 }

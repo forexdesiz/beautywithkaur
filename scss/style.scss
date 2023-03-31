@@ -5,8 +5,9 @@
 $os:'Oswald', sans-serif;
 $pl:'Playfair Display', serif;
 html{
-    font-family: $os;
+   
   body{
+    font-family: $os;
     .pl{
         font-family: $pl;
     }
@@ -73,6 +74,32 @@ html{
                 max-height: 700px;
             }
 
+        }
+        .section4{
+            justify-content: center;
+            
+            .color-block{
+                padding:1rem;
+
+                background-color: #a52a2a26;
+            }
+        }
+        .section6{
+            background-color: #7e0202b8;
+            color:white;;
+            ul {
+                list-style-type: none; text-align: center;
+              }
+            .logo-a{
+                background-color: white;
+                margin: auto;
+                width: fit-content;
+                
+                img{
+                    height: 100px;
+                    width: fit-content;
+                }
+            }
         }
     }
   }
