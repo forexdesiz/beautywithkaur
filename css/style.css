@@ -3,6 +3,7 @@
 }
 
 html body {
+  background-color: white;
   font-family: "Oswald", sans-serif;
 }
 
@@ -94,4 +95,84 @@ html body section .section6 .logo-a {
 html body section .section6 .logo-a img {
   height: 100px;
   width: fit-content;
+}
+
+@media (max-width: 575.98px) {
+  html body .top-nav .logo-anchor img {
+    height: 60px;
+  }
+  html body .top-nav .mid-text {
+    font-size: small;
+  }
+  html body .top-nav button {
+    font-size: small;
+  }
+  html body section {
+    margin-bottom: .7rem !important;
+  }
+  html body section .section1-div .text-block {
+    padding: 7rem 0rem;
+  }
+  html body section .section4 .color-block p {
+    font-size: small;
+  }
+  html body section .section4 .color-block h2 {
+    font-size: larger;
+    font-weight: 800;
+  }
+  html body section .section5 p {
+    font-size: small;
+  }
+}
+
+@media (max-width: 424.98px) {
+  html body .top-nav .logo-anchor img {
+    height: 60px;
+  }
+  html body .top-nav .mid-text {
+    font-size: small;
+    display: none;
+  }
+  html body .top-nav button {
+    font-size: small;
+  }
+  html body section {
+    margin-bottom: .7rem !important;
+  }
+  html body section .section1-div .text-block {
+    padding: 2rem 0rem;
+  }
+  html body section .section1-div .text-block .mb-5 {
+    margin-bottom: 1.5rem !important;
+  }
+  html body section .section1-div .text-block h1 {
+    font-size: x-large;
+  }
+  html body section .section1-div .text-block p {
+    font-size: small;
+  }
+  html body section .section4 {
+    flex-direction: column;
+  }
+  html body section .section4 .owner-img {
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  html body section .section4 .owner-img img {
+    width: 200px;
+  }
+  html body section .section4 .color-block p {
+    font-size: small;
+  }
+  html body section .section4 .color-block h2 {
+    font-size: larger;
+    font-weight: 800;
+  }
+  html body section .section5 .p-5 {
+    padding: 1rem !important;
+  }
+  html body section .section5 p {
+    font-size: x-small;
+  }
 }

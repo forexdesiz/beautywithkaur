@@ -7,6 +7,7 @@ $pl:'Playfair Display', serif;
 html{
    
   body{
+    background-color:white;
     font-family: $os;
     .pl{
         font-family: $pl;
@@ -104,3 +105,105 @@ html{
     }
   }
 }
+@media (max-width: 575.98px) {
+    html body {
+        .top-nav {
+            .logo-anchor img {
+                height: 60px ;
+            }
+            .mid-text{
+                font-size: small;
+            }
+            button{
+                font-size: small;
+            }
+        }
+        section{
+            margin-bottom: .7rem !important;
+            .section1-div {
+                 .text-block {
+                    padding: 7rem 0rem;
+                }
+                
+            }
+            .section4{
+                .color-block {
+                    p {
+                        font-size: small;
+                    }
+                    h2 {
+                        font-size: larger;
+                        font-weight: 800;
+                    }
+                }
+            }
+            .section5{
+                p {
+                    font-size: small;
+                }
+            }
+        }
+    }
+ }
+ @media (max-width: 424.98px) {
+    html body {
+        .top-nav {
+            .logo-anchor img {
+                height: 60px ;
+            }
+            .mid-text{
+                font-size: small;
+                display: none;
+            }
+            button{
+                font-size: small;
+            }
+        }
+        section{
+            margin-bottom: .7rem !important;
+            .section1-div {
+                 .text-block {
+                    padding: 2rem 0rem;
+                    .mb-5{
+                        margin-bottom: 1.5rem !important;
+                    }
+                    h1{
+                        font-size: x-large;
+                    }
+                    p{
+                        font-size: small;
+                    }
+                }
+                
+            }
+            .section4{
+                flex-direction: column;
+                .owner-img{
+                    margin: 0px;
+                    text-align: center;
+                    margin-bottom: 1rem;
+                    img{
+                        width: 200px;
+                    }
+                }
+                .color-block {
+                    p {
+                        font-size: small;
+                    }
+                    h2 {
+                        font-size: larger;
+                        font-weight: 800;
+                    }
+                }
+            }
+            .section5{
+                .p-5 {
+                    padding: 1rem!important;
+                }
+                p {
+                    font-size: x-small;
+                }
+            }
+        }
+    }
+ }
