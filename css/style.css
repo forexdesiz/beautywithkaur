@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Oswald", sans-serif;
+}
+
+html body .pl {
+  font-family: "Playfair Display", serif;
+}
+
+html body .top-nav .logo-anchor {
+  display: flex;
+}
+
+html body .top-nav .logo-anchor img {
+  height: 80px;
+}
+
+html body .top-nav .mid-text .top {
+  font-weight: 500;
+}
+
+html body .top-nav .mid-text .bottom {
+  font-weight: 500;
+  font-size: larger;
+}
+
+html body .top-nav button {
+  background-color: #000000c9;
+  outline: 0;
+  border: 0;
+}
+
+html body .top-nav button:hover {
+  background-color: black;
+}
+
+html body section {
+  margin-bottom: 1rem;
+}
+
+html body section .section1-div {
+  background-image: url(../media/section1png.png);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html body section .section1-div button {
+  background-color: #000000c9;
+  outline: 0;
+  border: 0;
+}
+
+html body section .section1-div button:hover {
+  background-color: black;
+}
+
+html body section .section1-div .text-block {
+  padding: 10rem 0rem;
+}
+
+html body section .section1-div .section-img {
+  max-height: 700px;
+}
