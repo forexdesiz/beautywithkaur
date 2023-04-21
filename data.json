@@ -1,212 +1,96 @@
 {
     "waxing": [
-      {
-        "name": "Eyebrow Shape",
-        "price": 25
-      },
-      {
-        "name": "Lip",
-        "price": 15
-      },
-      {
-        "name": "Chin",
-        "price": 18
-      },
-      {
-        "name": "Nose",
-        "price": 15
-      },
-      {
-        "name": "Sides of Face",
-        "price": 25
-      },
-      {
-        "name": "Neck",
-        "price": 18
-      },
-      {
-        "name": "Full Face",
-        "price": 55
-      },
-      {
-        "name": "Underarm",
-        "price": 25
-      },
-      {
-        "name": "Full Leg",
-        "price": 55
-      },
-      {
-        "name": "3/4 Leg",
-        "price": 45
-      },
-      {
-        "name": "Half Leg",
-        "price": 40
-      },
-      {
-        "name": "Bikini",
-        "price": 25
-      },
-      {
-        "name": "G-String",
-        "price": 45
-      },
-      {
-        "name": "Brazilian",
-        "price": 60
-      },
-      {
-        "name": "Full Arm",
-        "price": 50
-      },
-      {
-        "name": "3/4 Arm",
-        "price": 40
-      },
-      {
-        "name": "Half Arm",
-        "price": 35
-      }
+        {"Lip": 15},
+        {"Chin": 18},
+        {"Eyebrow Shape": 25},
+        {"Nose": 15},
+        {"Sides of Face": 25},
+        {"Neck": 18},
+        {"Full Face": 55},
+        {"Underarm": 25},
+        {"Full Leg": 55},
+        {"3/4 Leg": 45},
+        {"Half Leg": 40},
+        {"Bikini": 25},
+        {"G-String": 45},
+        {"Brazilian": 60},
+        {"Full Arm": 50},
+        {"3/4 Arm": 40},
+        {"Half Arm": 35}
     ],
     
-    "tinting": [
-        {
-        "name": "Eyebrow tint",
-        "price": 25
-        },
-        {
-        "name": "Eyebrow Wax & Tint",
-        "price": 40
-        },
-        {
-        "name": "Eyelash Tint",
-        "price": 25
-        },
-        {
-        "name": "Ebw, Tint, Lash Tint",
-        "price": 60
-        },
-        {
-        "name": "Lash lift",
-        "price": 85
-        }
-    ],
+
     
-    "package": [
-        {
-        "name": "Eyebrow & Lip",
-        "price": 35
-        },
-        {
-        "name": "Lip & Chin",
-        "price": 28
-        },
-        {
-        "name": "Eyebrow, Lip, Chin",
-        "price": 45
-        },
-        {
-        "name": "Full Leg & Bikini",
-        "price": 70
-        },
-        {
-        "name": "Full Leg & G-String",
-        "price": 90
-        },
-        {
-        "name": "Full Leg & Brazilian",
-        "price": 105
-        },
-        {
-        "name": "Half Leg & Bikini",
-        "price": 60
-        },
-        {
-        "name": "Half Leg & G-String",
-        "price": 75
-        },
-        {
-        "name": "Half Leg & Brazilian",
-        "price": 90
-        }
-    ],
     
-    "facials": [
-        {
-        "category": "Signature Facial",
-        "duration": "60 minutes",
-        "price": "$110"
-        },
-        {
-        "category": "Destress Facial",
-        "duration": "90 minutes",
-        "price": "$150"
-        },
-        {
-        "category": "Skin Express",
-        "duration": "40 minutes",
-        "price": "$70"
-        },
-        {
-        "category": "Teen Facial",
-        "duration": "40 minutes",
-        "price": "$70"
-        },
-        {
-        "category": "Microdermabrasion (30)",
-        "duration": "30 minutes",
-        "price": "$80"
-        },
-        {
-        "category": "Microdermabrasion (60)",
-        "duration": "60 minutes",
-        "price": "$110"
-        }
+   
+    "tinting": 
+    [
+       {"Eyebrow tint": 25} ,
+        {"Eyebrow Wax & Tint": 40},
+        {"Eyelash Tint": 25},
+        {"Eyebrow Wax, Tint, Lash Tint": 60},
+        {"Lash lift": 85}
     ],
+      
+   
+        "package": [
+          {
+            "Eyebrow & Lip": 35
+          },
+          {
+            "Lip & Chin": 28
+          },
+          {
+            "Eyebrow, Lip, Chin": 45
+          },
+          {
+            "Full Leg & Bikini": 70
+          },
+          {
+            "Full Leg & G-String": 90
+          },
+          {
+            "Full Leg & Brazilian": 105
+          },
+          {
+            "Half Leg & Bikini": 60
+          },
+          {
+            "Half Leg & G-String": 75
+          },
+          {
+            "Half Leg & Brazilian": 90
+          }
+        ],
     
-    "peels": [
-        {
-        "category": "Pro Power Peel",
-        "duration": "40 minutes",
-        "price": "$95"
-        },
-        {
-        "category": "Reawakening Peel",
-        "duration": "60 minutes",
-        "price": "$125"
-        },
-        {
-        "category": "Lactic Peel",
-        "duration": "40 minutes",
-        "price": "$80"
-        },
-        {
-        "category": "Mandelic Peel",
-        "duration": "40 minutes",
-        "price": "$90"
-        },
-        {
-        "category": "Brightening Peel",
-        "duration": "60 minutes",
-        "price": "$115"
-        }
-    ],
-  
-    "henna_brows": [
-        {
-        "category": "Henna Stand Alone",
-        "price": "$55"
-        },
-        {
-        "category": "Henna with Ebw",
-        "price": "$75"
-        },
-        {
-        "category": "Henna with Eb & ELtint",
-        "price": "$90"
-        }
-    ]
-    
+        "facials": [
+            { "Pro Power Peel (40)": 95},
+            {"Reawakening Peel (60)": 125},
+            {"Lactic Peel (40)":80},
+            {"Mandelic Peel (40)":90},
+            {"Brightening Peel (60)": 115}
+        ],
+        "peels": [
+            {"Pro Power Peel": "$95"},
+           { "Reawakening Peel": "$125"},
+            {"Lactic Peel": "$80"},
+            {"Mandelic Peel": "$90"},
+            {"Brightening Peel": "$115"}
+        ],
+        
+            "henna_brows": [
+             {"Henna Stand Alone": "$55"},{"Henna with Ebw": "$75"},{"Henna with Eb & ELtint": "$90"} 
+              
+              
+            ]
+          
+          
+             
+              
+           
+          
+          
+      
   }
+
   

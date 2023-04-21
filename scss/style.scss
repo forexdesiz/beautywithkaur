@@ -102,6 +102,21 @@ html{
                 }
             }
         }
+        .section2-div {
+            .cat-cards{
+                text-align: center;
+                // padding: 1rem;
+                // font-weight: 700;
+                text-transform: capitalize;
+                // font-size: larger;
+                .ch{
+                    padding: 1rem;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                    font-size: larger;
+                }
+            }
+        }
     }
   }
 }

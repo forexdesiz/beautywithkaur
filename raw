@@ -1,0 +1,207 @@
+
+"waxing": [
+    {
+      "name": "Eyebrow Shape",
+      "price": 25
+    },
+    {
+      
+      "": 15
+    },
+    {
+      "name": "Chin",
+      "price": 18
+    },
+    {
+      "name": "Nose",
+      "price": 15
+    },
+    {
+      "name": "Sides of Face",
+      "price": 25
+    },
+    {
+      "name": "Neck",
+      "price": 18
+    },
+    {
+      "name": "Full Face",
+      "price": 55
+    },
+    {
+      "name": "Underarm",
+      "price": 25
+    },
+    {
+      "name": "Full Leg",
+      "price": 55
+    },
+    {
+      "name": "3/4 Leg",
+      "price": 45
+    },
+    {
+      "name": "Half Leg",
+      "price": 40
+    },
+    {
+      "name": "Bikini",
+      "price": 25
+    },
+    {
+      "name": "G-String",
+      "price": 45
+    },
+    {
+      "name": "Brazilian",
+      "price": 60
+    },
+    {
+      "name": "Full Arm",
+      "price": 50
+    },
+    {
+      "name": "3/4 Arm",
+      "price": 40
+    },
+    {
+      "name": "Half Arm",
+      "price": 35
+    }
+  ],
+  
+  "tinting": [
+      {
+      "name": "Eyebrow tint",
+      "price": 25
+      },
+      {
+      "name": "Eyebrow Wax & Tint",
+      "price": 40
+      },
+      {
+      "name": "Eyelash Tint",
+      "price": 25
+      },
+      {
+      "name": "Ebw, Tint, Lash Tint",
+      "price": 60
+      },
+      {
+      "name": "Lash lift",
+      "price": 85
+      }
+  ],
+  
+  "package": [
+      {
+      "name": "Eyebrow & Lip",
+      "price": 35
+      },
+      {
+      "name": "Lip & Chin",
+      "price": 28
+      },
+      {
+      "name": "Eyebrow, Lip, Chin",
+      "price": 45
+      },
+      {
+      "name": "Full Leg & Bikini",
+      "price": 70
+      },
+      {
+      "name": "Full Leg & G-String",
+      "price": 90
+      },
+      {
+      "name": "Full Leg & Brazilian",
+      "price": 105
+      },
+      {
+      "name": "Half Leg & Bikini",
+      "price": 60
+      },
+      {
+      "name": "Half Leg & G-String",
+      "price": 75
+      },
+      {
+      "name": "Half Leg & Brazilian",
+      "price": 90
+      }
+  ]
+  
+"facials": [
+    {
+        "category": "Signature Facial",
+        "duration": "60 minutes",
+        "price": 110
+    },
+    {
+        "category": "Destress Facial",
+        "duration": "90 minutes",
+        "price": 150
+    },
+    {
+        "category": "Skin Express",
+        "duration": "40 minutes",
+        "price": 70
+    },
+    {
+        "category": "Teen Facial",
+        "duration": "40 minutes",
+        "price": 70
+    },
+    {
+        "category": "Microdermabrasion (30)",
+        "duration": "30 minutes",
+        "price": 80
+    },
+    {
+        "category": "Microdermabrasion (60)",
+        "duration": "60 minutes",
+        "price": 110
+    }
+],
+"peels": [
+    {
+        "category": "Pro Power Peel",
+        "duration": "40 minutes",
+        "price": 95
+    },
+    {
+        "category": "Reawakening Peel",
+        "duration": "60 minutes",
+        "price": 125
+    },
+    {
+        "category": "Lactic Peel",
+        "duration": "40 minutes",
+        "price": 80
+    },
+    {
+        "category": "Mandelic Peel",
+        "duration": "40 minutes",
+        "price": 90
+    },
+    {
+        "category": "Brightening Peel",
+        "duration": "60 minutes",
+        "price": 115
+    }
+],
+"henna_brows": [
+    {
+        "category": "Henna Stand Alone",
+        "price": 55
+    },
+    {
+        "category": "Henna with Ebw",
+        "price": 75
+    },
+    {
+        "category": "Henna with Eb & ELtint",
+        "price": 90
+    }
+]

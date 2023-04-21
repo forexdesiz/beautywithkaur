@@ -97,6 +97,18 @@ html body section .section6 .logo-a img {
   width: fit-content;
 }
 
+html body section .section2-div .cat-cards {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+html body section .section2-div .cat-cards .ch {
+  padding: 1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: larger;
+}
+
 @media (max-width: 575.98px) {
   html body .top-nav .logo-anchor img {
     height: 60px;
